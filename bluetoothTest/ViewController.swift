@@ -32,6 +32,8 @@ class ViewController: UIViewController {
                 self.contents.isHidden = false
                 //LED2を光らせる
                 Konashi.digitalWrite(KonashiDigitalIOPin.LED2, value: KonashiLevel.high)
+            }else{
+                print("-----------------Konashiとの接続が成功しました。--------------------")
             }
 
         }

@@ -8,22 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		574BD57B287DB5A300ACC464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD57A287DB5A300ACC464 /* AppDelegate.swift */; };
-		574BD57D287DB5A300ACC464 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD57C287DB5A300ACC464 /* SceneDelegate.swift */; };
 		574BD57F287DB5A400ACC464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BD57E287DB5A400ACC464 /* ViewController.swift */; };
 		574BD582287DB5A400ACC464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574BD580287DB5A400ACC464 /* Main.storyboard */; };
 		574BD584287DB5A500ACC464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574BD583287DB5A500ACC464 /* Assets.xcassets */; };
 		574BD587287DB5A500ACC464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574BD585287DB5A500ACC464 /* LaunchScreen.storyboard */; };
+		574BD590287DB5D700ACC464 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574BD58F287DB5D700ACC464 /* CoreBluetooth.framework */; };
+		574BD5BC287DB61500ACC464 /* KNSPeripheralBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD594287DB61500ACC464 /* KNSPeripheralBaseImpl.m */; };
+		574BD5BD287DB61500ACC464 /* KNSKoshianPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD595287DB61500ACC464 /* KNSKoshianPeripheralImpl.m */; };
+		574BD5BE287DB61500ACC464 /* KNSKonashiPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD596287DB61500ACC464 /* KNSKonashiPeripheralImpl.m */; };
+		574BD5BF287DB61500ACC464 /* CBUUID+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD59E287DB61500ACC464 /* CBUUID+Konashi.m */; };
+		574BD5C0287DB61500ACC464 /* CBService+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5A2287DB61500ACC464 /* CBService+Konashi.m */; };
+		574BD5C1287DB61500ACC464 /* CBPeripheral+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5A3287DB61500ACC464 /* CBPeripheral+Konashi.m */; };
+		574BD5C2287DB61500ACC464 /* Konashi+Grove.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5A6287DB61500ACC464 /* Konashi+Grove.m */; };
+		574BD5C3287DB61500ACC464 /* KNSCentralManager+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5A8287DB61500ACC464 /* KNSCentralManager+UI.m */; };
+		574BD5C4287DB61500ACC464 /* Konashi+ADC.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5AC287DB61500ACC464 /* Konashi+ADC.m */; };
+		574BD5C5287DB61500ACC464 /* Konashi+ACDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5AD287DB61500ACC464 /* Konashi+ACDrive.m */; };
+		574BD5C6287DB61500ACC464 /* Konashi+JavaScriptBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5AF287DB61500ACC464 /* Konashi+JavaScriptBindings.m */; };
+		574BD5C7287DB61500ACC464 /* KNSCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5B1287DB61500ACC464 /* KNSCentralManager.m */; };
+		574BD5C8287DB61500ACC464 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5B5287DB61500ACC464 /* Konashi.m */; };
+		574BD5C9287DB61500ACC464 /* KNSHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5B9287DB61500ACC464 /* KNSHandlerManager.m */; };
+		574BD5CA287DB61500ACC464 /* KNSPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5BA287DB61500ACC464 /* KNSPeripheral.m */; };
+		574BD5CB287DB61500ACC464 /* KonashiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 574BD5BB287DB61500ACC464 /* KonashiUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		574BD577287DB5A300ACC464 /* bluetoothTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574BD57A287DB5A300ACC464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		574BD57C287DB5A300ACC464 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		574BD57E287DB5A400ACC464 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		574BD581287DB5A400ACC464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		574BD583287DB5A500ACC464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574BD586287DB5A500ACC464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574BD588287DB5A500ACC464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574BD58F287DB5D700ACC464 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		574BD593287DB61500ACC464 /* KNSPeripheralImpls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralImpls.h; sourceTree = "<group>"; };
+		574BD594287DB61500ACC464 /* KNSPeripheralBaseImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSPeripheralBaseImpl.m; sourceTree = "<group>"; };
+		574BD595287DB61500ACC464 /* KNSKoshianPeripheralImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSKoshianPeripheralImpl.m; sourceTree = "<group>"; };
+		574BD596287DB61500ACC464 /* KNSKonashiPeripheralImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSKonashiPeripheralImpl.m; sourceTree = "<group>"; };
+		574BD597287DB61500ACC464 /* KNSKoshianPeripheralImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSKoshianPeripheralImpl.h; sourceTree = "<group>"; };
+		574BD598287DB61500ACC464 /* KNSPeripheralBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralBaseImpl.h; sourceTree = "<group>"; };
+		574BD599287DB61500ACC464 /* KNSPeripheralImplProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralImplProtocol.h; sourceTree = "<group>"; };
+		574BD59A287DB61500ACC464 /* KNSKonashiPeripheralImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSKonashiPeripheralImpl.h; sourceTree = "<group>"; };
+		574BD59B287DB61500ACC464 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
+		574BD59E287DB61500ACC464 /* CBUUID+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Konashi.m"; sourceTree = "<group>"; };
+		574BD59F287DB61500ACC464 /* CBService+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBService+Konashi.h"; sourceTree = "<group>"; };
+		574BD5A0287DB61500ACC464 /* CBPeripheral+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Konashi.h"; sourceTree = "<group>"; };
+		574BD5A1287DB61500ACC464 /* CBUUID+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+Konashi.h"; sourceTree = "<group>"; };
+		574BD5A2287DB61500ACC464 /* CBService+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBService+Konashi.m"; sourceTree = "<group>"; };
+		574BD5A3287DB61500ACC464 /* CBPeripheral+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Konashi.m"; sourceTree = "<group>"; };
+		574BD5A5287DB61500ACC464 /* Konashi+ADC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ADC.h"; sourceTree = "<group>"; };
+		574BD5A6287DB61500ACC464 /* Konashi+Grove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+Grove.m"; sourceTree = "<group>"; };
+		574BD5A7287DB61500ACC464 /* KonashiJavaScriptBindingsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiJavaScriptBindingsProtocol.h; sourceTree = "<group>"; };
+		574BD5A8287DB61500ACC464 /* KNSCentralManager+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KNSCentralManager+UI.m"; sourceTree = "<group>"; };
+		574BD5A9287DB61500ACC464 /* Konashi+ACDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ACDrive.h"; sourceTree = "<group>"; };
+		574BD5AA287DB61500ACC464 /* Konashi+JavaScriptBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+JavaScriptBindings.h"; sourceTree = "<group>"; };
+		574BD5AB287DB61500ACC464 /* Konashi+Grove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+Grove.h"; sourceTree = "<group>"; };
+		574BD5AC287DB61500ACC464 /* Konashi+ADC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ADC.m"; sourceTree = "<group>"; };
+		574BD5AD287DB61500ACC464 /* Konashi+ACDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ACDrive.m"; sourceTree = "<group>"; };
+		574BD5AE287DB61500ACC464 /* KNSCentralManager+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KNSCentralManager+UI.h"; sourceTree = "<group>"; };
+		574BD5AF287DB61500ACC464 /* Konashi+JavaScriptBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+JavaScriptBindings.m"; sourceTree = "<group>"; };
+		574BD5B0287DB61500ACC464 /* KNSHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSHandlerManager.h; sourceTree = "<group>"; };
+		574BD5B1287DB61500ACC464 /* KNSCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSCentralManager.m; sourceTree = "<group>"; };
+		574BD5B2287DB61500ACC464 /* Konashi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi-Prefix.pch"; sourceTree = "<group>"; };
+		574BD5B3287DB61500ACC464 /* KonashiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiUtils.h; sourceTree = "<group>"; };
+		574BD5B4287DB61500ACC464 /* KNSPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheral.h; sourceTree = "<group>"; };
+		574BD5B5287DB61500ACC464 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
+		574BD5B7287DB61500ACC464 /* KonashiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiConstant.h; sourceTree = "<group>"; };
+		574BD5B8287DB61500ACC464 /* KNSCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSCentralManager.h; sourceTree = "<group>"; };
+		574BD5B9287DB61500ACC464 /* KNSHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSHandlerManager.m; sourceTree = "<group>"; };
+		574BD5BA287DB61500ACC464 /* KNSPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSPeripheral.m; sourceTree = "<group>"; };
+		574BD5BB287DB61500ACC464 /* KonashiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KonashiUtils.m; sourceTree = "<group>"; };
+		574BD5CC287DB92200ACC464 /* konashi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "konashi-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574BD590287DB5D700ACC464 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +95,11 @@
 		574BD56E287DB5A300ACC464 = {
 			isa = PBXGroup;
 			children = (
+				574BD5CC287DB92200ACC464 /* konashi-Bridging-Header.h */,
+				574BD591287DB61500ACC464 /* Konashi */,
 				574BD579287DB5A300ACC464 /* bluetoothTest */,
 				574BD578287DB5A300ACC464 /* Products */,
+				574BD58E287DB5D700ACC464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				574BD57A287DB5A300ACC464 /* AppDelegate.swift */,
-				574BD57C287DB5A300ACC464 /* SceneDelegate.swift */,
 				574BD57E287DB5A400ACC464 /* ViewController.swift */,
 				574BD580287DB5A400ACC464 /* Main.storyboard */,
 				574BD583287DB5A500ACC464 /* Assets.xcassets */,
@@ -65,6 +122,98 @@
 				574BD588287DB5A500ACC464 /* Info.plist */,
 			);
 			path = bluetoothTest;
+			sourceTree = "<group>";
+		};
+		574BD58E287DB5D700ACC464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574BD58F287DB5D700ACC464 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		574BD591287DB61500ACC464 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				574BD592287DB61500ACC464 /* Impl */,
+				574BD59B287DB61500ACC464 /* Konashi.h */,
+				574BD59C287DB61500ACC464 /* Category */,
+				574BD5B0287DB61500ACC464 /* KNSHandlerManager.h */,
+				574BD5B1287DB61500ACC464 /* KNSCentralManager.m */,
+				574BD5B2287DB61500ACC464 /* Konashi-Prefix.pch */,
+				574BD5B3287DB61500ACC464 /* KonashiUtils.h */,
+				574BD5B4287DB61500ACC464 /* KNSPeripheral.h */,
+				574BD5B5287DB61500ACC464 /* Konashi.m */,
+				574BD5B6287DB61500ACC464 /* Constant */,
+				574BD5B8287DB61500ACC464 /* KNSCentralManager.h */,
+				574BD5B9287DB61500ACC464 /* KNSHandlerManager.m */,
+				574BD5BA287DB61500ACC464 /* KNSPeripheral.m */,
+				574BD5BB287DB61500ACC464 /* KonashiUtils.m */,
+			);
+			path = Konashi;
+			sourceTree = "<group>";
+		};
+		574BD592287DB61500ACC464 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				574BD593287DB61500ACC464 /* KNSPeripheralImpls.h */,
+				574BD594287DB61500ACC464 /* KNSPeripheralBaseImpl.m */,
+				574BD595287DB61500ACC464 /* KNSKoshianPeripheralImpl.m */,
+				574BD596287DB61500ACC464 /* KNSKonashiPeripheralImpl.m */,
+				574BD597287DB61500ACC464 /* KNSKoshianPeripheralImpl.h */,
+				574BD598287DB61500ACC464 /* KNSPeripheralBaseImpl.h */,
+				574BD599287DB61500ACC464 /* KNSPeripheralImplProtocol.h */,
+				574BD59A287DB61500ACC464 /* KNSKonashiPeripheralImpl.h */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		574BD59C287DB61500ACC464 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				574BD59D287DB61500ACC464 /* CoreBluetooth */,
+				574BD5A4287DB61500ACC464 /* Konashi */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		574BD59D287DB61500ACC464 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				574BD59E287DB61500ACC464 /* CBUUID+Konashi.m */,
+				574BD59F287DB61500ACC464 /* CBService+Konashi.h */,
+				574BD5A0287DB61500ACC464 /* CBPeripheral+Konashi.h */,
+				574BD5A1287DB61500ACC464 /* CBUUID+Konashi.h */,
+				574BD5A2287DB61500ACC464 /* CBService+Konashi.m */,
+				574BD5A3287DB61500ACC464 /* CBPeripheral+Konashi.m */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		574BD5A4287DB61500ACC464 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				574BD5A5287DB61500ACC464 /* Konashi+ADC.h */,
+				574BD5A6287DB61500ACC464 /* Konashi+Grove.m */,
+				574BD5A7287DB61500ACC464 /* KonashiJavaScriptBindingsProtocol.h */,
+				574BD5A8287DB61500ACC464 /* KNSCentralManager+UI.m */,
+				574BD5A9287DB61500ACC464 /* Konashi+ACDrive.h */,
+				574BD5AA287DB61500ACC464 /* Konashi+JavaScriptBindings.h */,
+				574BD5AB287DB61500ACC464 /* Konashi+Grove.h */,
+				574BD5AC287DB61500ACC464 /* Konashi+ADC.m */,
+				574BD5AD287DB61500ACC464 /* Konashi+ACDrive.m */,
+				574BD5AE287DB61500ACC464 /* KNSCentralManager+UI.h */,
+				574BD5AF287DB61500ACC464 /* Konashi+JavaScriptBindings.m */,
+			);
+			path = Konashi;
+			sourceTree = "<group>";
+		};
+		574BD5B6287DB61500ACC464 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				574BD5B7287DB61500ACC464 /* KonashiConstant.h */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +287,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574BD5BF287DB61500ACC464 /* CBUUID+Konashi.m in Sources */,
+				574BD5C8287DB61500ACC464 /* Konashi.m in Sources */,
+				574BD5C5287DB61500ACC464 /* Konashi+ACDrive.m in Sources */,
+				574BD5C7287DB61500ACC464 /* KNSCentralManager.m in Sources */,
+				574BD5C6287DB61500ACC464 /* Konashi+JavaScriptBindings.m in Sources */,
 				574BD57F287DB5A400ACC464 /* ViewController.swift in Sources */,
 				574BD57B287DB5A300ACC464 /* AppDelegate.swift in Sources */,
-				574BD57D287DB5A300ACC464 /* SceneDelegate.swift in Sources */,
+				574BD5CA287DB61500ACC464 /* KNSPeripheral.m in Sources */,
+				574BD5C4287DB61500ACC464 /* Konashi+ADC.m in Sources */,
+				574BD5C0287DB61500ACC464 /* CBService+Konashi.m in Sources */,
+				574BD5BC287DB61500ACC464 /* KNSPeripheralBaseImpl.m in Sources */,
+				574BD5BE287DB61500ACC464 /* KNSKonashiPeripheralImpl.m in Sources */,
+				574BD5C2287DB61500ACC464 /* Konashi+Grove.m in Sources */,
+				574BD5C1287DB61500ACC464 /* CBPeripheral+Konashi.m in Sources */,
+				574BD5C3287DB61500ACC464 /* KNSCentralManager+UI.m in Sources */,
+				574BD5BD287DB61500ACC464 /* KNSKoshianPeripheralImpl.m in Sources */,
+				574BD5CB287DB61500ACC464 /* KonashiUtils.m in Sources */,
+				574BD5C9287DB61500ACC464 /* KNSHandlerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +459,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com..bluetoothTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "konashi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com..bluetoothTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "konashi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
